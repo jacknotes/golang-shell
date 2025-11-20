@@ -1,4 +1,4 @@
-module github.com/jacknotes/go-shell/redis-keyspace-event
+module github.com/jacknotes/golang-shell/redis-keyspace-event
 
 go 1.22.2
 

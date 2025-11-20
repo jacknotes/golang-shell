@@ -1,3 +1,3 @@
-module github.com/jacknotes/go_test
+module github.com/jacknotes/golang-shell/utils
 
 go 1.22.2

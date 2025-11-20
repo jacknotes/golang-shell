@@ -1,4 +1,4 @@
-module github.com/jacknotes/golang/kafka
+module github.com/jacknotes/golang-shell/kafka
 
 go 1.23.1
 
