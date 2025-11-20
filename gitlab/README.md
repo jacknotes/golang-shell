@@ -6,9 +6,8 @@
 
 ## 创建项目
 ```bash
-GITLAB_TOKEN="abcfdf" PROJECT_NAME="dotnet-testv1-service-hs-com" ./dist/gitlab-create-project.exe -delete-project
+GITLAB_TOKEN="abcfdf" PROJECT_NAME="dotnet-testv1-service-hs-com" ./dist/gitlab-create-project.exe
 ```
-
 
 ## 删除项目
 ```bash
