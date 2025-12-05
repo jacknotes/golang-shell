@@ -3,6 +3,12 @@
 此脚本用于gitlab v8.9.11，用来创建项目和删除项目。
 
 
+## 编译
+```bash
+GOOS=linux GOARCH=amd64 go build -o ./dist/gitlab-create-project main.go
+```
+
+
 
 ## 创建项目
 ```bash

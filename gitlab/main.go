@@ -33,7 +33,7 @@ func main() {
 	}
 
 	// 替换 . 为 -（仅用于路径）
-	sanitizedProjectName := strings.ReplaceAll(*projectName, ".", "-")
+	sanitizedProjectName := strings.ToLower(strings.ReplaceAll(*projectName, ".", "-"))
 
 	client := gitlab.NewClient(nil, *token)
 	client.SetBaseURL(*gitlabURL + "/api/v3")
